@@ -1,0 +1,61 @@
+.answer-container {
+  display: flex;
+  justify-content: space-between; /* sprider ut kolumnerna jämnt */
+  max-width: 800px; /* valfri total bredd */
+  margin-bottom: 30px; /* mellanrum mellan frågeblock */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* båda kolumnerna tar lika mycket plats */
+  min-width: 0; /* förhindrar overflow-problem */
+}
+
+.column p {
+  margin: 5px 0; /* justera vertikal spacing mellan alternativen */
+}
+
+.column button {
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: left;
+}
+
+.column button:hover {
+  opacity: 0.8;
+}
+
+.option-a {
+  background-color: #db0303; /* ljusrosa */
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.option-b {
+  background-color: #3750e0; /* ljusblå */
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.option-c {
+  background-color: #237523; /* ljusgrön */
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.option-d {
+  background-color: #f7d306; /* gul */
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.answer-container a {
+  display: block; /* gör dem till block-element */
+  text-de
