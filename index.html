@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz om Svensk Mathistoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Quiz om Svensk Mathistoria</h1>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+
+            <!-- FRÅGA 1 -->
+            <div class="question-card">
+                <div class="q-number">Fråga 1</div>
+                <h2>När blev köttbullar en populär maträtt i Sverige?</h2>
+            </div>
+            <div class="answer-container">
+                <div class="column">
+                    <button onclick="answer(false)">A) 1700-talet</button>
+                    <button onclick="answer(true)">C) I mitten på 1900-talet</button>
+                </div>
+                <div class="column">
+                    <button onclick="answer(false)">B) 1800-talet</button>
+                    <button onclick="answer(false)">D) 2000-talet</button>
+                </div>
+            </div>
+
+            <!-- FRÅGA 2 -->
+            <div class="question-card">
+                <div class="q-number">Fråga 2</div>
+                <h2>När kom snabbmaten till Sverige?</h2>
+            </div>
+            <div class="answer-container">
+                <div class="column">
+                    <button onclick="answer(false)">A) 1920-talet</button>
+                    <button onclick="answer(false)">C) 2000-talet</button>
+                </div>
+                <div class="column">
+                    <button onclick="answer(false)">B) 1990-talet</button>
+                    <button onclick="answer(true)">D) 1950-talet</button>
+                </div>
+            </div>
+
+            <!-- FRÅGA 3 -->
+            <div class="question-card">
+                <div class="q-number">Fråga 3</div>
+                <h2>Varför har potatisen haft stor betydelse i Sveriges mathistoria?</h2>
+            </div>
+            <div class="answer-container">
+                <div class="column">
+                    <button onclick="answer(false)">A) Den användes som valuta</button>
+                    <button onclick="answer(false)">C) Det var en lyxvara</button>
+                </div>
+                <div class="column">
+                    <button onclick="answer(true)">B) Lätt att odla och räddade folket från hungersnöd</button>
+                    <button onclick="answer(false)">D) Lätt att importera</button>
+                </div>
+            </div>
+
+            <!-- FRÅGA 4 -->
+            <div class="question-card">
+                <div class="q-number">Fråga 4</div>
+                <h2>Vilken efterrätt äts traditionellt på fettisdagen?</h2>
+            </div>
+            <div class="answer-container">
+                <div class="column">
+                    <button onclick="answer(false)">A) Prinsesstårta</button>
+                    <button onclick="answer(true)">C) Semla</button>
+                </div>
+                <div class="column">
+                    <button onclick="answer(false)">B) Sockerkaka</button>
+                    <button onclick="answer(false)">D) Tiramisu</button>
+                </div>
+            </div>
+
+            <!-- FRÅGA 5 -->
+            <div class="question-card">
+                <div class="q-number">Fråga 5</div>
+                <h2>Vad åt man ofta innan kylskåp fanns?</h2>
+            </div>
+            <div class="answer-container">
+                <div class="column">
+                    <button onclick="answer(false)">A) Alkohol</button>
+                    <button onclick="answer(false)">C) Bara frukt</button>
+                </div>
+                <div class="column">
+                    <button onclick="answer(true)">B) Sill och torkat kött</button>
+                    <button onclick="answer(false)">D) Råa grönsaker</button>
+                </div>
+            </div>
+
+            <button class="resultat-knapp" onclick="showResult()">VISA RESULTAT</button>
+            <p id="resultText"></p>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kontakt</h3>
+                <p>Email: info@quiz.se</p>
+                <p>Telefon: 000000000</p>
+                <p>Adress: Quizgatan 1, Pajala</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Sociala medier</h3>
+                <div class="social-links">
+                    <img src="https://cdn.simpleicons.org/facebook/ffffff" width="32">
+                    <img src="https://cdn.simpleicons.org/instagram/ffffff" width="32">
+                    <img src="https://cdn.simpleicons.org/youtube/ffffff" width="32">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Quiz om Svensk Mathistoria</p>
+        </div>
+    </footer>
+
+    <script src="quizsvar.js"></script>
+</body>
+</html>
