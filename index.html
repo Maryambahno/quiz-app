@@ -2,64 +2,97 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>Test - Svarsalternativ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Svensk Mat & Historia Quiz</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="answer-container">
-    <div class="column">
-      <button class="option-a" onclick="answer(false)">A) 1700-talet</button>
-      <button class="option-c" onclick="answer(true)">C) I mitten på 1900-talet</button>
-    </div>
-    <div class="column">
-      <button class="option-b" onclick="answer(false)">B) 1800-talet</button>
-      <button class="option-d" onclick="answer(false)">D) 2000-talet</button>
-    </div>
-  </div>
 
-  <div class="answer-container">
-    <div class="column">
-      <button class="option-a" onclick="answer(false)">A) 1920-talet</button>
-      <button class="option-c" onclick="answer(false)">C) 2000-talet</button>
-    </div>
-    <div class="column">
-      <button class="option-b" onclick="answer(false)">B) 1990-talet</button>
-      <button class="option-d" onclick="answer(true)">D) 1950-talet</button>
-    </div>
-  </div>
+  <div class="container">
+    <h1>Svensk Mat & Historia Quiz</h1>
 
-  <div class="answer-container">
-    <div class="column">
-      <button class="option-a" onclick="answer(false)">A) Den användes som valuta</button>
-      <button class="option-c" onclick="answer(false)">C) Det var en lyxvara</button>
+    <div class="question-card">
+      <div class="q-number">Fråga 1</div>
+      <h2>När blev köttbullar en populär maträtt i Sverige?</h2>
     </div>
-    <div class="column">
-      <button class="option-b" onclick="answer(true)">B) Lätt att odla och räddade folket från hungersnöd</button>
-      <button class="option-d" onclick="answer(false)">D) Lätt att importera från andra länder</button>
+    <div class="answer-container">
+      <div class="column">
+        <button class="option-a" onclick="answer(false)">A) 1700-talet</button>
+        <button class="option-c" onclick="answer(true)">C) I mitten på 1900-talet</button>
+      </div>
+      <div class="column">
+        <button class="option-b" onclick="answer(false)">B) 1800-talet</button>
+        <button class="option-d" onclick="answer(false)">D) 2000-talet</button>
+      </div>
     </div>
-  </div>
 
-  <div class="answer-container">
-    <div class="column">
-      <button class="option-a" onclick="answer(false)">A) Prinsesstårta</button>
-      <button class="option-c" onclick="answer(true)">C) Semla</button>
+    <div class="question-card">
+      <div class="q-number">Fråga 2</div>
+      <h2>När kom snabbmaten till Sverige?</h2>
     </div>
-    <div class="column">
-      <button class="option-b" onclick="answer(false)">B) Sockerkaka</button>
-      <button class="option-d" onclick="answer(false)">D) Tiramisu</button>
+    <div class="answer-container">
+      <div class="column">
+        <button class="option-a" onclick="answer(false)">A) 1920-talet</button>
+        <button class="option-c" onclick="answer(false)">C) 2000-talet</button>
+      </div>
+      <div class="column">
+        <button class="option-b" onclick="answer(false)">B) 1990-talet</button>
+        <button class="option-d" onclick="answer(true)">D) 1950-talet</button>
+      </div>
     </div>
-  </div>
 
-  <div class="answer-container">
-    <div class="column">
-      <button class="option-a" onclick="answer(false)">A) Man levde mest på alkohol</button>
-      <button class="option-c" onclick="answer(false)">C) Bara frukt</button>
+    <div class="question-card">
+      <div class="q-number">Fråga 3</div>
+      <h2>Varför har potatisen haft stor betydelse i Sveriges mathistoria?</h2>
     </div>
-    <div class="column">
-      <button class="option-b" onclick="answer(true)">B) Sill och torkat kött</button>
-      <button class="option-d" onclick="answer(false)">D) Råa grönsaker</button>
+    <div class="answer-container">
+      <div class="column">
+        <button class="option-a" onclick="answer(false)">A) Den användes som valuta</button>
+        <button class="option-c" onclick="answer(false)">C) Det var en lyxvara</button>
+      </div>
+      <div class="column">
+        <button class="option-b" onclick="answer(true)">B) Lätt att odla och räddade folket från hungersnöd</button>
+        <button class="option-d" onclick="answer(false)">D) Lätt att importera från andra länder</button>
+      </div>
     </div>
+
+    <div class="question-card">
+      <div class="q-number">Fråga 4</div>
+      <h2>Vilken efterrätt har lång tradition i svensk historia och äts på fettisdagen?</h2>
+    </div>
+    <div class="answer-container">
+      <div class="column">
+        <button class="option-a" onclick="answer(false)">A) Prinsesstårta</button>
+        <button class="option-c" onclick="answer(true)">C) Semla</button>
+      </div>
+      <div class="column">
+        <button class="option-b" onclick="answer(false)">B) Sockerkaka</button>
+        <button class="option-d" onclick="answer(false)">D) Tiramisu</button>
+      </div>
+    </div>
+
+    <div class="question-card">
+      <div class="q-number">Fråga 5</div>
+      <h2>Vad åt man ofta i Sverige innan man hade kylskåp?</h2>
+    </div>
+    <div class="answer-container">
+      <div class="column">
+        <button class="option-a" onclick="answer(false)">A) Man levde mest på alkohol</button>
+        <button class="option-c" onclick="answer(false)">C) Bara frukt</button>
+      </div>
+      <div class="column">
+        <button class="option-b" onclick="answer(true)">B) Sill och torkat kött</button>
+        <button class="option-d" onclick="answer(false)">D) Råa grönsaker</button>
+      </div>
+    </div>
+<button class="resultat-knapp" onclick="showResult()">VISA RESULTAT</button>
+<p id="resultText"></p>
+  </div>
+  </html> </body> <script src="quizsvar.js"></script>
+</body>
+</html>
   </div>
   
 </body>
+
 </html>
