@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* ===== GRUND ===== */
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -18,7 +18,7 @@ main {
   padding: 40px 20px;
 }
 
-/* ===== HEADER ===== */
+
 header {
   background-color: #79d22c;
   color: white;
@@ -29,7 +29,7 @@ header {
   margin: 20px auto;
 }
 
-/* ===== QUIZ ===== */
+
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -90,7 +90,7 @@ header {
   cursor: pointer;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
   background-color: #0b03f4;
   color: white;
