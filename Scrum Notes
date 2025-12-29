@@ -168,3 +168,77 @@ Hur löser vi det: Bättre kommunikation och information till alla
 Ansvarig: Alla
 ________________________________________
 
+Sprint Planning - Sprint 3
+Mötesinformation
+Datum: 2025-12-29
+Tid: 10:30-11:30
+Sprint längd: 1 vecka
+Närvarande: Emil, Angelica, Maryam, Jonathan
+Mötesroll - Anteckningar: Emil
+
+DEL 1: Sprint Mål (10-15 min)
+Vad vill vi uppnå denna vecka?
+Färdigställa powerpoint-presentation. Vi ska använda oss av Google slides.
+Finjustera CSS. Just nu ligger alla uppdaterade filer i main förutom CSS som behöver uppdateras. Detta gör Jonathan.
+
+
+Definition of Done - När är något KLART?
+Att rätt CSS fil blir uppladdad till main. Just nu är det den gamla.
+
+DEL 2: Teamets Kapacitet (5-10 min)
+[Emil]
+[10h
+[Angelica]
+[10h]
+[Maryam]
+[10h]
+[Jonathan]
+[10h]
+TOTALT
+[40 timmar]
+
+
+
+Föregående sprint - vad hann vi? 
+[Alla han klart med sina individuella uppgifter föregående sprint.]
+Denna sprint - vad planerar vi? [Powerpoint presentation.]
+VIKTIGT: Är detta realistiskt baserat på tillgänglig tid och förra sprintens resultat? Ja.
+
+DEL 3: User Stories & Uppgifter (30-45 min)
+Ingen ny user story
+GitHub Issue: Skapa presentation. Prioritet: Hög
+Story Points / Estimat: [6h] Huvudansvarig: [Alla]
+Beskrivning
+
+
+Identifierade Risker & Blockerare
+Risk/Problem: Om GitHub hakar upp sig
+Påverkan: Hög
+Vad gör vi åt det? Kollar online på lösningar
+Ansvarig: Alla
+
+
+
+ACTION ITEMS - Konkreta uppgifter som ska göras NU
+Nr 1
+Vad ska göras? Uppdatera CSS filen
+Vem ansvarar? Jonathan
+Deadline 29/12
+Status: ToDo
+Nr 2
+Alla förbereder sin del i redovisningen
+Alla
+29/12
+Todo
+
+Sprint Backlog - Sammanfattning
+Siffror
+Antal user stories i sprinten: [X]
+Totalt antal tasks: 2
+Total estimerad arbetstid: 40 timmar
+Story points planerade: [X]
+Sprintens huvudsakliga fokusområden
+[Område 1,CSS Filen"]
+[Område 2, Redovisningen]
+
+
