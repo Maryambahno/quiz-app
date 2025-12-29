@@ -97,3 +97,23 @@ h1 {
   display: block;
   text-decoration: none;
 }
+
+.resultat-knapp {
+    background-color: #6cc24a; 
+    color: white; 
+    padding: 15px 30px;
+    font-size: 18px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+.resultat-knapp:hover {
+    background-color: #48c14f; 
+}
+
+.answer-container a {
+  display: block; /* gör dem till block-element */
+
+  text-de
