@@ -29,3 +29,142 @@ Alla laddar upp sin kod på GitHub. Angelica ska lägga in Maryams kod i sin, Em
 Detta för att användaren ska kunna få kommentarer och svarsresultat beroende på vilket svar användaren klickar på. När allt fungerar ska Jonathan sätta ihop resten av koden tillsammans med sin kod. 
 Vi bestämmer att ha Sprint Review och Sprint Retrospective imorgon pga julledigheten. Målet till imorgon är att alla ska ha laddat upp sin kod och att Angelicas, Maryams och Emils kod är ihopsatta. 
 Senare imorgon får Jonathan sätta ihop resten med sin kod. Vi fokuserar på funktion just nu men tanken är att vi fokuserar mer på design och färger nästa vecka.
+
+Daily Scrum och Sprint review samt Sprint retrospective
+23/12
+Daily Scrum - Sprint 2
+[Emil]
+1. Vad gjorde jag sedan senaste Daily Scrum?
+•	Gjorde javascript (backend) biten. Kodade if-satser
+•	GitHub issue #9 – In progress
+
+2. Vad ska jag göra fram till nästa Daily Scrum?
+•	Säkerställa att Angelicas HTML-kod stämmer med Javascriptskoden
+•	GitHub issue #9 – Sätta ihop HTML med javascript
+•	Fullständig kod
+3. Ser jag några blockerare eller hinder?
+Nej
+Status på mina tilldelade tasks:
+•	GitHub Issue #9: - Pågår
+•	GitHub Issue #[13]: Pågår
+________________________________________
+[Maryam]
+1. Vad gjorde jag sedan senaste Daily Scrum?
+•	Designat frågorna med css, laddat upp koden på GitHub
+GitHub issue #6 - Klar
+2. Vad ska jag göra fram till nästa Daily Scrum?
+•	Eventuellt hjälpa till med resten av HTML-kod
+•	[GitHub issue #6]
+3. Ser jag några blockerare eller hinder?
+•	Nej
+Status på mina tilldelade tasks:
+•	GitHub Issue #[6]: Klar
+________________________________________
+[Angelica]
+1. Vad gjorde jag sedan senaste Daily Scrum?
+•	Ändrade a-tag till button-tag
+•	[GitHub issue #7 - Klar
+•	[GitHub issue #11 - Pågående
+•	[GitHub issue #13 - Klar
+
+2. Vad ska jag göra fram till nästa Daily Scrum?
+•	Sätta ihop Maryams kod med min
+•	[GitHub issue #11]
+3. Ser jag några blockerare eller hinder?
+•	Nej
+Status på mina tilldelade tasks:
+•	[GitHub issue #7 - Klar
+•	[GitHub issue #11 - Pågående
+•	[GitHub issue #13 - Klar
+
+23/12 Sprint Review - Sprint 2
+
+________________________________________
+DEL: 1 Sprint mål från Planning
+Vårt mål var: Att alla skulle göra färdigt sin kod så att vi kunde sätta ihop allt
+Uppnådde vi målet?  Delvis
+Förklaring: Alla hade inte möjlighet att lägga upp sin kod eller arbeta samma tid
+Siffror 
+Mått	Planerat	Uppnått	Procent
+User Stories	[1]	[0,8]	[80%]
+Story Points	[]	[]	[]
+GitHub Issues	[9]	[5]	[60%]
+________________________________________
+DEL 2: Vad blev KLART? (Definition of Done uppfylld)
+GitHub Issue: #[5,6,7,8,10]
+Status: KLAR
+Demo-ansvarig: Alla
+Vad levererade vi:
+•	En header
+•	En footer
+•	Frågor
+•	Svarsalternativ
+•	If-satser i javascript
+•	Testresultat
+
+Bevis på färdigställande:
+•	 All kod fungerar
+•	 Code review genomförd av alla
+•	 Pushad till GitHub
+•	 Dokumentation uppdaterad
+
+Lärdomar/Utmaningar:
+Svårt att designa samstämmigt om man inte är jättespecifik med färger och layout
+________________________________________
+DEL 3: Vad blev INTE klart?
+Vi hann ej sätta ihop allas kod
+GitHub Issue: #9,11,12,13
+Status: EJ KLAR
+Färdigställd procent: 60%
+Vad blev gjort:
+• Vi har hunnit göra det vi skulle koda var för sig men inte hunnit sätta ihop all kod
+Varför blev det inte klart:
+•	Det tog längre tid och alla kunde inte ladda upp sin kod samtidigt på GitHub pga tekniska problem.
+Plan framåt:
+•	Försöker göra så mycket som möjligt innan jul och resten flyttas till nästa sprint
+________________________________________
+23/12 Sprint Retrospective - Sprint 2
+________________________________________
+4 L
+Liked - Vad gillade jag?
+Positiva aspekter av sprinten
+Emil:
+•	Bra samarbete
+Angelica:
+•	Alla är flexibla och försöker samarbeta
+Maryam:
+•	Bra planering
+________________________________________
+Learned - Vad lärde jag mig?
+Emil:
+•	Sätta ihop kod, html, css och javascript
+Angelica:
+•	Att man behöver vara väldigt specifik, man inser alltid att man inte varit tillräckligt specifik, speciellt gällande design
+Maryam:
+•	Lärt mig många nya termer och arbetssätt
+________________________________________
+Lacked - Vad saknades?
+Emil:
+•	Tydliga exempel
+Angelica:
+•	Tydliga exempel, känns som att man improviserar mycket
+Maryam
+•	Tydliga exempel
+________________________________________
+Longed For - Vad längtade jag efter?
+•	Tydliga exempel
+
+________________________________________
+Analys och sammanfattning (15 minuter)
+Viktigaste lärdomarna
+Att vara specifik gällande färg och design	
+Handling
+Fråga mer, försöka vara mer specifik själv
+
+Kritiska luckor att fylla
+Vad saknas: Att alla kan vara närvarande vid möten
+Impact: Medel	
+Hur löser vi det: Bättre kommunikation och information till alla
+Ansvarig: Alla
+________________________________________
+
