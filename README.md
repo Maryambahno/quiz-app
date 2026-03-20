@@ -1,4 +1,4 @@
-Projekt: Historiequiz
+### Projekt - Historiequiz
 
 Detta projekt är en del av en kursuppgift där vi arbetar i grupp enligt Scrum-ramverket.
 Syftet med uppgiften är att träna på samarbete, sprintar och arbetsprocessen i Scrum, inte att bygga en avancerad applikation.
