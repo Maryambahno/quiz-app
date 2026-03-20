@@ -13,18 +13,18 @@ Användaren ska kunna:
 4. Få ett resultat i slutet
 
 ## Roller i projektet
-. Product Owner: Ansvarar för vad som ska byggas och prioritering av uppgifter
-. Scrum Master: Ansvarar för att Scrum-processen följs och att möten hålls
-. Utvecklare: Alla gruppmedlemmar som arbetar med kod och uppgifter
+1. Product Owner: Ansvarar för vad som ska byggas och prioritering av uppgifter
+2. Scrum Master: Ansvarar för att Scrum-processen följs och att möten hålls
+3. Utvecklare: Alla gruppmedlemmar som arbetar med kod och uppgifter
 
 Rollerna används enligt kursens instruktioner och Scrum Master roteras vid behov.
 
 ## Arbetsmetod (Scrum)
 Projektet är uppdelat i sprintar, där varje sprint är en vecka.
 Varje sprint innehåller:
-. Sprint Planning
-. Daily Scrum
-. Sprint Review
-. Sprint Retrospective
+1. Sprint Planning
+2. Daily Scrum
+3. Sprint Review
+4. Sprint Retrospective
 
 Alla uppgifter hanteras som GitHub Issues och organiseras i en GitHub Project Board (Kanban-tavla).
